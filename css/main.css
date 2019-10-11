@@ -1,1 +1,52 @@
+html {
+  box-sizing: border-box;
+  background-color: #dbd6cf;
+  line-height: 1.5;
+}
 
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  margin: 0;
+  color: #fff;
+  text-align: center;
+  font-family: Bevan, serif;
+  line-height: 1.5;
+}
+
+.horizonatal-nav ul {
+  text-align: center;
+  list-style-type: none;
+  font-family: sans-serif;
+}
+
+.horizontal-nav li {
+  display: inline;
+}
+
+nav a {
+  display: inline-block;
+  padding: .6em;
+  color: #fff;
+  background-color: #713837;
+  text-align: center;
+  border-radius: 8px;
+}
+
+body {
+  background-color: #79756f;
+  margin: 0;
+  padding: .75em;
+  width: 100%;
+  border-top: #595652;
+}
+
+.horizontal-navn a:hover {
+  background-color: #f33;
+  margin: 0;
+  padding: .75em;
+
+  width: 100%;
+}
